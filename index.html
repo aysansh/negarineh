@@ -18,62 +18,8 @@
       href="https://unpkg.com/swiper/swiper-bundle.min.css"
     />
     <link rel="stylesheet" href="./swiper.css" />
+    <link rel="stylesheet" href="./style.css" />
     <title>Negarineh</title>
-
-    <style>
-      body {
-        margin: 0;
-        padding: 0;
-        font-family: iransans;
-        direction: rtl;
-      }
-      @font-face {
-        font-family: "Trickster";
-        src: url("/iransans/ir_sans.ttf") url("/iransans/IRANSans\(FaNum\).ttf");
-      }
-      a {
-        text-decoration: none;
-      }
-
-      .nav-links {
-        color: #ffffff;
-        font-size: 14px;
-      }
-      h5 {
-        font-size: 20px;
-      }
-      p {
-        font-size: 14px;
-        line-height: 25px;
-        text-align: justify;
-      }
-      .see-more-btn {
-        border: none;
-        background-color: #009fd1;
-        border-radius: 10px 10px 0 0;
-        color: #ffffff;
-        font-size: 14px;
-        padding: 10px 25px;
-      }
-      @media screen and (min-width: 770px) {
-        .main1 {
-          background-image: url(./image/backgraound/ui\ bg.jpg);
-          background-repeat: no-repeat;
-          background-size: cover;
-          height: 315%;
-          width: 100%;
-        }
-      }
-      @media screen and (min-width: 770px) {
-        .main2 {
-          background-image: url(./image/backgraound/Landing\ Page22.jpg);
-          background-repeat: no-repeat;
-          background-size: cover;
-          /* height: 315%; */
-          width: 100%;
-        }
-      }
-    </style>
   </head>
   <body>
     <!-- navigation -->
@@ -86,7 +32,7 @@
         "
       >
         <div class="d-flex flex-row justify-content-between h-100">
-          <div class="col-lg-6 mb-5 h-100">
+          <div class="col-lg-8 col-xl-6 mb-5 h-100">
             <div
               class="d-none d-lg-flex justify-content-between align-items-center me-5 h-100"
             >
@@ -123,8 +69,7 @@
                 id="offcanvasRight"
                 aria-labelledby="offcanvasRightLabel"
               >
-                <div class="offcanvas-header mt-4">
-                  <h5 id="offcanvasRightLabel">Offcanvas right</h5>
+                <div class="offcanvas-header mt-4 d-flex justify-content-end">
                   <button
                     type="button"
                     class="btn-close text-reset"
@@ -132,13 +77,304 @@
                     aria-label="Close"
                   ></button>
                 </div>
-                <div class="offcanvas-body">...</div>
+                <div class="offcanvas-body">
+                  <form action="" style="width: 100%">
+                    <div
+                      class="d-flex align-items-center justify-content-end"
+                      style="
+                        opacity: 0.8;
+                        border: 2px solid #ffffff;
+                        border-radius: 5px;
+                        width: 300px;
+                        height: 46px;
+                        position: relative;
+                      "
+                    >
+                      <button
+                        class="bi bi-search btn border-0 bg-transparent text-white"
+                        style="
+                          opacity: 0.5;
+                          position: absolute;
+                          right: 10px;
+                          margin-left: 20px;
+                          background-color: #ffffff;
+                          box-shadow: 0;
+                        "
+                      ></button>
+
+                      <input
+                        type="text"
+                        placeholder="جستجوی محصول"
+                        style="
+                          background-color: #ffffff;
+                          border: 3px solid #009FD1;
+                          border-radius: 10px;
+                          width: 100%;
+                          height: 40px;
+                          outline: none;
+                          font-size: 16px;
+                          padding-right: 1rem;
+                        "
+                        name=""
+                        id=""
+                      />
+                    </div>
+                  </form>
+
+                  <div class="mt-4">
+                    <div class="d-flex align-items-center mb-4">
+                      <?xml version="1.0" encoding="utf-8"?>
+                      <!-- Uploaded to: SVG Repo, www.svgrepo.com, Generator: SVG Repo Mixer Tools -->
+                      <svg
+                        fill="#009FD1"
+                        width="20px"
+                        height="20px"
+                        viewBox="-4.5 0 32 32"
+                        version="1.1"
+                        xmlns="http://www.w3.org/2000/svg"
+                      >
+                        <path
+                          d="M19.469 12.594l3.625 3.313c0.438 0.406 0.313 0.719-0.281 0.719h-2.719v8.656c0 0.594-0.5 1.125-1.094 1.125h-4.719v-6.063c0-0.594-0.531-1.125-1.125-1.125h-2.969c-0.594 0-1.125 0.531-1.125 1.125v6.063h-4.719c-0.594 0-1.125-0.531-1.125-1.125v-8.656h-2.688c-0.594 0-0.719-0.313-0.281-0.719l10.594-9.625c0.438-0.406 1.188-0.406 1.656 0l2.406 2.156v-1.719c0-0.594 0.531-1.125 1.125-1.125h2.344c0.594 0 1.094 0.531 1.094 1.125v5.875z"
+                        ></path>
+                      </svg>
+                      <a href="" class="text-black-50 fw-bold me-2"> خانه </a>
+                    </div>
+                    <div class="d-flex align-items-center mb-4">
+                      <?xml version="1.0" ?>
+
+                      <!-- Uploaded to: SVG Repo, www.svgrepo.com, Generator: SVG Repo Mixer Tools -->
+                      <svg
+                        fill="#009FD1"
+                        width="20px"
+                        height="20px"
+                        viewBox="0 0 512 512"
+                        id="_x30_1"
+                        version="1.1"
+                        xml:space="preserve"
+                        xmlns="http://www.w3.org/2000/svg"
+                        xmlns:xlink="http://www.w3.org/1999/xlink"
+                      >
+                        <g>
+                          <path
+                            d="M157.114,188.969h28.438c3.269-13.719,7.51-26.333,12.545-37.485c-9.62,5.348-18.555,12.064-26.552,20.061   C166.14,176.95,161.323,182.786,157.114,188.969z"
+                          />
+
+                          <path
+                            d="M157.114,323.031c4.21,6.183,9.026,12.019,14.431,17.424c7.997,7.997,16.932,14.713,26.552,20.061   c-5.036-11.152-9.276-23.766-12.545-37.485H157.114z"
+                          />
+
+                          <path
+                            d="M354.886,188.969c-4.21-6.183-9.026-12.019-14.431-17.424c-7.997-7.997-16.932-14.713-26.552-20.061   c5.036,11.152,9.276,23.766,12.545,37.485H354.886z"
+                          />
+
+                          <path
+                            d="M278.452,162.043c-9.626-19.252-19.283-25.48-22.452-25.48s-12.826,6.228-22.452,25.48   c-3.987,7.975-7.409,17.059-10.208,26.926h65.32C285.86,179.102,282.439,170.017,278.452,162.043z"
+                          />
+
+                          <path
+                            d="M233.548,349.957c9.626,19.252,19.283,25.48,22.452,25.48s12.826-6.228,22.452-25.48   c3.987-7.975,7.409-17.059,10.208-26.926h-65.32C226.14,332.898,229.561,341.983,233.548,349.957z"
+                          />
+
+                          <path
+                            d="M178,256c0-10.428,0.516-20.614,1.492-30.469h-39.021c-2.573,9.825-3.909,20.043-3.909,30.469s1.335,20.644,3.909,30.469   h39.021C178.516,276.614,178,266.428,178,256z"
+                          />
+
+                          <path
+                            d="M334,256c0,10.428-0.516,20.614-1.492,30.469h39.021c2.573-9.825,3.909-20.043,3.909-30.469s-1.335-20.644-3.909-30.469   h-39.021C333.484,235.386,334,245.572,334,256z"
+                          />
+
+                          <path
+                            d="M256,0C114.615,0,0,114.615,0,256s114.615,256,256,256s256-114.615,256-256S397.385,0,256,0z M256,412   c-86.156,0-156-69.844-156-156s69.844-156,156-156c86.156,0,156,69.844,156,156S342.156,412,256,412z"
+                          />
+
+                          <path
+                            d="M216.277,225.531c-1.125,9.901-1.714,20.127-1.714,30.469s0.589,20.568,1.714,30.469h79.447   c1.125-9.901,1.714-20.127,1.714-30.469s-0.589-20.568-1.714-30.469H216.277z"
+                          />
+
+                          <path
+                            d="M313.903,360.516c9.62-5.348,18.555-12.064,26.552-20.061c5.405-5.405,10.221-11.241,14.431-17.424h-28.438   C323.179,336.75,318.939,349.364,313.903,360.516z"
+                          />
+                        </g>
+                      </svg>
+                      <a href="" class="text-black-50 fw-bold me-2"> طراحی سایت </a>
+                    </div>
+                    <div class="d-flex align-items-center mb-4">
+                      <?xml version="1.0" encoding="iso-8859-1"?>
+                      <!-- Uploaded to: SVG Repo, www.svgrepo.com, Generator: SVG Repo Mixer Tools -->
+                      <!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+                      <svg
+                        fill="#009FD1"
+                        version="1.1"
+                        id="Capa_1"
+                        xmlns="http://www.w3.org/2000/svg"
+                        xmlns:xlink="http://www.w3.org/1999/xlink"
+                        width="20px"
+                        height="20px"
+                        viewBox="0 0 47.05 47.049"
+                        xml:space="preserve"
+                      >
+                        <g>
+                          <g>
+                            <path
+                              d="M43.656,16.982c-0.729-2.255,0.268-5.41-1.098-7.287C41.179,7.8,37.859,7.78,35.964,6.4
+                            c-1.876-1.365-2.914-4.523-5.168-5.255c-2.174-0.706-4.86,1.216-7.271,1.216c-2.41,0-5.097-1.922-7.271-1.216
+                            C14,1.876,12.962,5.035,11.085,6.4C9.19,7.78,5.872,7.8,4.493,9.695c-1.365,1.877-0.369,5.032-1.1,7.287
+                            C2.686,19.156,0,21.113,0,23.525c0,2.41,2.686,4.367,3.393,6.542c0.73,2.254-0.267,5.41,1.1,7.287
+                            c1.379,1.895,4.698,1.915,6.593,3.294c1.876,1.365,2.914,4.523,5.168,5.257c2.175,0.705,4.86-1.217,7.271-1.217
+                            c2.411,0,5.097,1.922,7.271,1.217c2.254-0.732,3.292-3.892,5.168-5.256c1.896-1.379,5.214-1.4,6.595-3.295
+                            c1.364-1.876,0.367-5.032,1.098-7.286c0.707-2.175,3.394-4.133,3.394-6.543C47.049,21.113,44.363,19.157,43.656,16.982z
+                             M23.525,40.102c-9.155,0-16.577-7.423-16.577-16.577c0-9.156,7.422-16.578,16.577-16.578c9.156,0,16.577,7.422,16.577,16.578
+                            C40.102,32.679,32.681,40.102,23.525,40.102z"
+                            />
+                            <path
+                              d="M23.525,9.062c-7.975,0-14.463,6.488-14.463,14.463s6.488,14.463,14.463,14.463S37.988,31.5,37.988,23.525
+                            S31.5,9.062,23.525,9.062z M23.525,35.626c-6.673,0-12.102-5.429-12.102-12.102c0-6.673,5.429-12.102,12.102-12.102
+                            c6.672,0,12.102,5.428,12.102,12.102C35.627,30.198,30.197,35.626,23.525,35.626z"
+                            />
+                            <path
+                              d="M24.859,21.932c-1.836-0.692-2.593-1.146-2.593-1.858c0-0.605,0.454-1.211,1.858-1.211c0.853,0,1.536,0.149,2.073,0.323
+                            c0.269,0.087,0.562,0.057,0.808-0.084c0.246-0.141,0.42-0.38,0.479-0.656l0.107-0.5c0.105-0.492-0.17-0.983-0.645-1.151
+                            c-0.502-0.179-1.176-0.312-2.422-0.352v-0.917c0-0.552-0.449-1-1-1c-0.552,0-1,0.448-1,1v1.067c-2,0.455-3.609,1.945-3.609,3.848
+                            c0,2.096,1.601,3.177,3.913,3.956c1.6,0.54,2.302,1.059,2.302,1.88c0,0.864-0.837,1.34-2.068,1.34c-0.935,0-1.81-0.201-2.558-0.48
+                            c-0.266-0.1-0.563-0.081-0.814,0.052c-0.252,0.132-0.437,0.364-0.507,0.641l-0.135,0.538c-0.128,0.509,0.158,1.029,0.657,1.193
+                            c0.909,0.299,2.093,0.518,2.821,0.564v1.402c0,0.552,0.448,1,1,1c0.552,0,1-0.448,1-1v-1.555c3-0.434,3.896-2.073,3.896-3.997
+                            C28.421,24.029,27.432,22.838,24.859,21.932z"
+                            />
+                          </g>
+                        </g>
+                      </svg>
+                      <a href="" class="text-black-50 fw-bold me-2"> تعرفه‌ها </a>
+                    </div>
+                    <div class="d-flex align-items-center mb-4">
+                      <?xml version="1.0" encoding="utf-8"?>
+                      <!-- Uploaded to: SVG Repo, www.svgrepo.com, Generator: SVG Repo Mixer Tools -->
+                      <svg
+                        width="20px"
+                        height="20px"
+                        viewBox="0 0 24 24"
+                        fill="none"
+                        xmlns="http://www.w3.org/2000/svg"
+                      >
+                        <path
+                          opacity="0.4"
+                          d="M22 16.5V19.5C22 21 21 22 19.5 22H6C6.41 22 6.83 21.94 7.22 21.81C7.33 21.77 7.43999 21.73 7.54999 21.68C7.89999 21.54 8.24001 21.34 8.54001 21.08C8.63001 21.01 8.73001 20.92 8.82001 20.83L8.85999 20.79L15.66 14H19.5C21 14 22 15 22 16.5Z"
+                          fill="#009fd13d"
+                        />
+                        <path
+                          opacity="0.6"
+                          d="M18.3694 11.29L15.6594 14L8.85938 20.79C9.55937 20.07 9.99939 19.08 9.99939 18V8.33996L12.7094 5.62996C13.7694 4.56996 15.1894 4.56996 16.2494 5.62996L18.3694 7.74996C19.4294 8.80996 19.4294 10.23 18.3694 11.29Z"
+                          fill="#009fd17d"
+                        />
+                        <path
+                          d="M7.5 2H4.5C3 2 2 3 2 4.5V18C2 18.27 2.02999 18.54 2.07999 18.8C2.10999 18.93 2.13999 19.06 2.17999 19.19C2.22999 19.34 2.28 19.49 2.34 19.63C2.35 19.64 2.35001 19.65 2.35001 19.65C2.36001 19.65 2.36001 19.65 2.35001 19.66C2.49001 19.94 2.65 20.21 2.84 20.46C2.95 20.59 3.06001 20.71 3.17001 20.83C3.28001 20.95 3.4 21.05 3.53 21.15L3.54001 21.16C3.79001 21.35 4.06 21.51 4.34 21.65C4.35 21.64 4.35001 21.64 4.35001 21.65C4.50001 21.72 4.65 21.77 4.81 21.82C4.94 21.86 5.07001 21.89 5.20001 21.92C5.46001 21.97 5.73 22 6 22C6.41 22 6.83 21.94 7.22 21.81C7.33 21.77 7.43999 21.73 7.54999 21.68C7.89999 21.54 8.24001 21.34 8.54001 21.08C8.63001 21.01 8.73001 20.92 8.82001 20.83L8.85999 20.79C9.55999 20.07 10 19.08 10 18V4.5C10 3 9 2 7.5 2ZM6 19.5C5.17 19.5 4.5 18.83 4.5 18C4.5 17.17 5.17 16.5 6 16.5C6.83 16.5 7.5 17.17 7.5 18C7.5 18.83 6.83 19.5 6 19.5Z"
+                          fill="#009FD1"
+                        />
+                      </svg>
+                      <a href="" class="text-black-50 fw-bold me-2"> نمونه کارها </a>
+                    </div>
+                    <div class="d-flex align-items-center mb-4">
+                      <?xml version="1.0" encoding="iso-8859-1"?>
+                      <!-- Uploaded to: SVG Repo, www.svgrepo.com, Generator: SVG Repo Mixer Tools -->
+                      <!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+                      <svg
+                        fill="#009FD1"
+                        version="1.1"
+                        id="Capa_1"
+                        xmlns="http://www.w3.org/2000/svg"
+                        xmlns:xlink="http://www.w3.org/1999/xlink"
+                        width="20px"
+                        height="20px"
+                        viewBox="0 0 67.025 67.026"
+                        xml:space="preserve"
+                      >
+                        <g>
+                          <g>
+                            <g>
+                              <polygon
+                                points="41.441,29.477 44.576,31.269 50.848,27.685 41.441,22.086 			"
+                              />
+                              <path
+                                d="M60.48,18.052l2.24-4.031c1.791-3.137-3.359-6.721-5.824-8.063c-2.465-1.345-8.063-4.257-9.855-0.896l-3.137,5.376
+                              c-3.137-0.672-6.721-1.12-10.304-1.12C15.008,9.317,0,19.398,0,31.718c0,12.318,15.008,22.398,33.6,22.398c0,0,0,0,0.225,0
+                              c0.224,2.688-2.912,7.168-7.393,9.407c17.698,0,25.761-13.216,25.761-13.216c8.959-4.032,14.783-10.752,14.783-18.592
+                              C67.424,26.565,64.736,21.861,60.48,18.052z M15.455,37.99c-1.792,0-3.136-1.346-3.136-3.138c0-1.792,1.344-3.136,3.136-3.136
+                              s3.136,1.344,3.136,3.136C18.591,36.644,17.025,37.99,15.455,37.99z M23.743,37.99c-1.792,0-3.136-1.346-3.136-3.138
+                              c0-1.792,1.344-3.136,3.136-3.136s3.136,1.344,3.136,3.136C26.879,36.644,25.535,37.99,23.743,37.99z M32.032,37.99
+                              c-1.792,0-3.137-1.346-3.137-3.138c0-1.792,1.345-3.136,3.137-3.136s3.136,1.344,3.136,3.136
+                              C35.168,36.644,33.824,37.99,32.032,37.99z M51.969,28.357l-6.496,3.584l-5.377,2.911v-6.047v-7.392l8.961-15.456
+                              c0.447-0.896,3.584,0,6.943,1.792s5.6,4.031,4.928,4.928L51.969,28.357z"
+                              />
+                            </g>
+                          </g>
+                        </g>
+                      </svg>
+                      <a href="" class="text-black-50 fw-bold me-2"> وبلاگ </a>
+                    </div>
+                    <div class="d-flex align-items-center mb-4">
+                      <?xml version="1.0" ?>
+
+                      <!DOCTYPE svg PUBLIC '-//W3C//DTD SVG 1.1//EN' 'http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd'>
+
+                      <!-- Uploaded to: SVG Repo, www.svgrepo.com, Generator: SVG Repo Mixer Tools -->
+                      <svg
+                        fill="#009FD1"
+                        width="20px"
+                        height="20px"
+                        viewBox="0 0 32 32"
+                        style="
+                          fill-rule: evenodd;
+                          clip-rule: evenodd;
+                          stroke-linejoin: round;
+                          stroke-miterlimit: 2;
+                        "
+                        version="1.1"
+                        xml:space="preserve"
+                        xmlns="http://www.w3.org/2000/svg"
+                        xmlns:serif="http://www.serif.com/"
+                        xmlns:xlink="http://www.w3.org/1999/xlink"
+                      >
+                        <g id="Layer1">
+                          <path
+                            d="M2.446,12.036l0.212,0.368l8.844,15.318l0.866,0.5c0,0 -0.86,-0.489 -0.86,-0.489l0.213,0.368c0.613,1.063 1.806,1.769 3.367,1.869c1.357,0.087 2.901,-0.3 4.287,-1.1c1.654,-0.955 3.125,-1.804 3.125,-1.804c0.478,-0.276 0.642,-0.888 0.366,-1.366l-2.948,-5.106c-0.276,-0.478 -0.888,-0.642 -1.366,-0.366l-1.69,0.975c0,0 -5.878,-10.182 -5.878,-10.182c-0,0 1.689,-0.975 1.689,-0.975c0.479,-0.276 0.643,-0.888 0.366,-1.366l-2.948,-5.106c-0.276,-0.479 -0.887,-0.643 -1.366,-0.366c0,-0 -1.471,0.849 -3.124,1.804c-1.386,0.8 -2.494,1.944 -3.097,3.162c-0.694,1.403 -0.678,2.789 -0.065,3.851l0.007,0.011Zm13.535,-0.036c2.208,0 4,1.792 4,4c-0,0.552 0.448,1 1,1c0.552,0 1,-0.448 1,-1c-0,-3.311 -2.689,-6 -6,-6c-0.552,0 -1,0.448 -1,1c-0,0.552 0.448,1 1,1Zm-0,-4c4.415,0 8,3.585 8,8c-0,0.552 0.448,1 1,1c0.552,0 1,-0.448 1,-1c-0,-5.519 -4.481,-10 -10,-10c-0.552,0 -1,0.448 -1,1c-0,0.552 0.448,1 1,1Zm-0,-4c6.623,0 12,5.377 12,12c-0,0.552 0.448,1 1,1c0.552,0 1,-0.448 1,-1c-0,-7.727 -6.273,-14 -14,-14c-0.552,0 -1,0.448 -1,1c-0,0.552 0.448,1 1,1Z"
+                          />
+                        </g>
+                      </svg>
+                      <a href="" class="text-black-50 fw-bold me-2"> تماس با ما </a>
+                    </div>
+                    <div class="d-flex align-items-center mb-4">
+                      <?xml version="1.0" encoding="utf-8"?>
+                      <!-- Uploaded to: SVG Repo, www.svgrepo.com, Generator: SVG Repo Mixer Tools -->
+                      <svg
+                        width="20px"
+                        height="20px"
+                        viewBox="0 0 1024 1024"
+                        class="icon"
+                        version="1.1"
+                        xmlns="http://www.w3.org/2000/svg"
+                      >
+                        <path
+                          d="M789.333333 853.333333H234.666667l-128 128V256c0-70.4 57.6-128 128-128h554.666666c70.4 0 128 57.6 128 128v469.333333c0 70.4-57.6 128-128 128z"
+                          fill="#009FD1"
+                        />
+                        <path
+                          d="M469.333333 426.666667h85.333334v234.666666h-85.333334z"
+                          fill="#FFFFFF"
+                        />
+                        <path
+                          d="M512 320m-42.666667 0a42.666667 42.666667 0 1 0 85.333334 0 42.666667 42.666667 0 1 0-85.333334 0Z"
+                          fill="#FFFFFF"
+                        />
+                      </svg>
+                      <a href="" class="text-black-50 fw-bold me-2"> درباره ما </a>
+                    </div>
+                  </div>
+                </div>
               </div>
             </div>
           </div>
 
           <div
-            class="col-lg-6 d-flex align-items-center"
+            class="col-lg-4 col-xl-6 d-flex align-items-center"
             style="direction: ltr"
           >
             <button
@@ -177,7 +413,7 @@
       </div>
     </section>
 
-    <main class="main1">
+    <main class="main1 pb-3">
       <section>
         <div class="container">
           <div class="row justify-content-center">
@@ -237,11 +473,13 @@
                 "
                 class="d-flex flex-column align-items-center"
               >
-                <h5 class="mt-4">نیاز به مشاوره رایگان و آنلاین دارید؟</h5>
+                <h5 class="mt-4 text-center">
+                  نیاز به مشاوره رایگان و آنلاین دارید؟
+                </h5>
                 <button
+                  class="mt-sm-4"
                   style="
                     width: fit-content;
-                    margin-top: 35px;
                     border: none;
                     border-radius: 5px;
                     background-color: #009fd1;
@@ -347,89 +585,130 @@
       <!-- Swiper -->
       <section style="margin-bottom: 5rem">
         <div class="container">
-          <div>
-            <div class="swiper myswiper">
-              <div class="swiper-wrapper">
-                <div class="swiper-slide">
+          <div class="swiper myswiper">
+            <div class="swiper-wrapper" style="height: fit-content">
+              <div class="swiper-slide">
+                <div style="padding: 20px 20px 0 20px">
+                  <div style="border-radius: 5px">
+                    <img
+                      style="width: 100%"
+                      src="./image/main/Rectangle 7.png"
+                      alt=""
+                    />
+                  </div>
+                  <div
+                    style="margin-top: 1rem; text-align: start"
+                    class="costumer"
+                  >
+                    <h6>معرفی 4 مارکت پلیس ایرانی</h6>
+                    <p style="font-size: 12px; line-height: 22px">
+                      لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ
+                      و با استفاده از طراحان گرافیک است چاپگرها و متون بلکه
+                      روزنامه و مجله در ستون و سطرآنچنان که لازم است.
+                    </p>
+                  </div>
                   <div>
-                    <div style="padding: 20px 20px 0 20px">
-                      <div style="border-radius: 5px">
-                        <img
-                          style="width: 100%"
-                          src="./image/main/Rectangle 7.png"
-                          alt=""
-                        />
-                      </div>
-                      <div style="margin-top: 1rem; text-align: start">
-                        <h6>طراحی سایت شرکتی</h6>
-                        <p style="font-size: 12px; line-height: 22px">
-                          لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت
-                          چاپ و با استفاده از طراحان گرافیک است چاپگرها و متون
-                          بلکه روزنامه و مجله در ستون و سطرآنچنان که لازم است.
-                        </p>
-                      </div>
-                      <div>
-                        <button class="see-more-btn">مشاهده بیشتر</button>
-                      </div>
-                    </div>
+                    <button class="see-more-btn">مشاهده بیشتر</button>
                   </div>
                 </div>
-                <div class="swiper-slide">
-                  <div style="padding: 20px 20px 0 20px">
-                    <div style="border-radius: 5px">
-                      <img
-                        style="width: 100%"
-                        src="./image/main/Rectangle 7.png"
-                        alt=""
-                      />
-                    </div>
-                   
+              </div>
+              <div class="swiper-slide">
+                <div style="padding: 20px 20px 0 20px">
+                  <div style="border-radius: 5px">
+                    <img
+                      style="width: 100%"
+                      src="./image/main/Rectangle 7.png"
+                      alt=""
+                    />
+                  </div>
+                  <div
+                    style="margin-top: 1rem; text-align: start"
+                    class="costumer"
+                  >
+                    <h6>معرفی 4 مارکت پلیس ایرانی</h6>
+                    <p style="font-size: 12px; line-height: 22px">
+                      لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ
+                      و با استفاده از طراحان گرافیک است چاپگرها و متون بلکه
+                      روزنامه و مجله در ستون و سطرآنچنان که لازم است.
+                    </p>
+                  </div>
+                  <div>
+                    <button class="see-more-btn">مشاهده بیشتر</button>
                   </div>
                 </div>
-                <div class="swiper-slide">
-                  <div style="padding: 20px 20px 0 20px">
-                    <div style="border-radius: 5px">
-                      <img
-                        style="width: 100%"
-                        src="./image/main/Rectangle 7.png"
-                        alt=""
-                      />
-                    </div>
-                   
+              </div>
+              <div class="swiper-slide">
+                <div style="padding: 20px 20px 0 20px">
+                  <div style="border-radius: 5px">
+                    <img
+                      style="width: 100%"
+                      src="./image/main/Rectangle 7.png"
+                      alt=""
+                    />
+                  </div>
+                  <div
+                    style="margin-top: 1rem; text-align: start"
+                    class="costumer"
+                  >
+                    <h6>معرفی 4 مارکت پلیس ایرانی</h6>
+                    <p style="font-size: 12px; line-height: 22px">
+                      لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ
+                      و با استفاده از طراحان گرافیک است چاپگرها و متون بلکه
+                      روزنامه و مجله در ستون و سطرآنچنان که لازم است.
+                    </p>
+                  </div>
+                  <div>
+                    <button class="see-more-btn">مشاهده بیشتر</button>
                   </div>
                 </div>
-                <div class="swiper-slide">
-                  <div style="padding: 20px 20px 0 20px">
-                    <div style="border-radius: 5px">
-                      <img
-                        style="width: 100%"
-                        src="./image/main/Rectangle 7.png"
-                        alt=""
-                      />
-                    </div>
-                   
+              </div>
+              <div class="swiper-slide">
+                <div style="padding: 20px 20px 0 20px">
+                  <div style="border-radius: 5px">
+                    <img
+                      style="width: 100%"
+                      src="./image/main/Rectangle 7.png"
+                      alt=""
+                    />
+                  </div>
+                  <div
+                    style="margin-top: 1rem; text-align: start"
+                    class="costumer"
+                  >
+                    <h6>معرفی 4 مارکت پلیس ایرانی</h6>
+                    <p style="font-size: 12px; line-height: 22px">
+                      لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ
+                      و با استفاده از طراحان گرافیک است چاپگرها و متون بلکه
+                      روزنامه و مجله در ستون و سطرآنچنان که لازم است.
+                    </p>
+                  </div>
+                  <div>
+                    <button class="see-more-btn">مشاهده بیشتر</button>
                   </div>
                 </div>
-                <div class="swiper-slide">
-                  <div style="padding: 20px 20px 0 20px">
-                    <div style="border-radius: 5px">
-                      <img
-                        style="width: 100%"
-                        src="./image/main/Rectangle 7.png"
-                        alt=""
-                      />
-                    </div>
-                    <div style="margin-top: 1rem; text-align: start">
-                      <h6>طراحی سایت شرکتی</h6>
-                      <p style="font-size: 12px; line-height: 22px">
-                        لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت
-                        چاپ و با استفاده از طراحان گرافیک است چاپگرها و متون
-                        بلکه روزنامه و مجله در ستون و سطرآنچنان که لازم است.
-                      </p>
-                    </div>
-                    <div>
-                      <button class="see-more-btn">مشاهده بیشتر</button>
-                    </div>
+              </div>
+              <div class="swiper-slide">
+                <div style="padding: 20px 20px 0 20px">
+                  <div style="border-radius: 5px">
+                    <img
+                      style="width: 100%"
+                      src="./image/main/Rectangle 7.png"
+                      alt=""
+                    />
+                  </div>
+                  <div
+                    style="margin-top: 1rem; text-align: start"
+                    class="costumer"
+                  >
+                    <h6>معرفی 4 مارکت پلیس ایرانی</h6>
+                    <p style="font-size: 12px; line-height: 22px">
+                      لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ
+                      و با استفاده از طراحان گرافیک است چاپگرها و متون بلکه
+                      روزنامه و مجله در ستون و سطرآنچنان که لازم است.
+                    </p>
+                  </div>
+                  <div>
+                    <button class="see-more-btn">مشاهده بیشتر</button>
                   </div>
                 </div>
               </div>
@@ -449,7 +728,7 @@
               <h5
                 style="
                   border-bottom: 2px solid #009fd1;
-                  width: max-content;
+                  width: fit-content;
                   padding: 0 0 10px 30px;
                   margin-bottom: 1.5rem;
                 "
@@ -482,218 +761,689 @@
       </div>
     </section>
 
-    <main class="main2">
-      <section>
-        <div class="container">
-          <h5 class="text-center pt-5 mb-4">
+    <main>
+      <div class="main2">
+        <div class="container pt-5">
+          <h5 class="text-center pt-5 pb-2">
             چرا طراحی وبسایت خود را به نگارینه بسپاریم؟
           </h5>
-          <div style="position: relative">
+
+          <div
+            class="d-flex justify-content-center align-items-center"
+            style="max-width: 1150px; margin: auto"
+          >
+            <div class="row flex-wrap text-center justify-content-center">
+              <div class="col-lg-6 p-4 d-flex justify-content-center">
+                <div class="support">
+                  <div
+                    style="
+                      background-color: rgba(255, 255, 255, 0.8);
+                      border-radius: 10px;
+                      padding: 30px;
+                      width: fit-content;
+                      height: fit-content;
+                    "
+                  >
+                    <h6 style="color: #009fd1">پشتیبانی و خدمات مشتری سایت</h6>
+                    <p>
+                      لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ،
+                      و با استفاده از طراحان گرافیک است، چاپگرها و متون بلکه
+                      روزنامه و مجله در ستون و سطرآنچنان که لازم است، و برای
+                      شرایط فعلی تکنولوژی مورد نیاز، و کاربردهای متنوع با هدف
+                      بهبود ابزارهای کاربردی می باشد، کتابهای زیادی در شصت و سه
+                      درصد گذشته حال و آینده، شناخت فراوان جامعه و متخصصان را می
+                      طلبد، تا با نرم افزارها شناخت بیشتری را برای طراحان رایانه
+                      ای علی الخصوص طراحان خلاقی، و فرهنگ پیشرو در زبان فارسی
+                      ایجاد کرد، در این صورت می توان امید داشت که تمام و دشواری
+                      موجود در ارائه راهکارها، و شرایط سخت تایپ به پایان رسد و
+                      زمان مورد نیاز شامل حروفچینی دستاوردهای اصلی، و جوابگوی
+                      سوالات پیوسته اهل دنیای موجود طراحی اساسا مورد استفاده
+                      قرار گیرد.
+                    </p>
+                  </div>
+                </div>
+              </div>
+
+              <div class="col-lg-6 p-4 d-flex justify-content-center">
+                <div class="support">
+                  <div
+                    style="
+                      background-color: rgba(255, 255, 255, 0.8);
+                      border-radius: 10px;
+                      padding: 30px;
+                      width: fit-content;
+                      height: fit-content;
+                    "
+                  >
+                    <h6 style="color: #009fd1">پشتیبانی و خدمات مشتری سایت</h6>
+                    <p>
+                      لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ،
+                      و با استفاده از طراحان گرافیک است، چاپگرها و متون بلکه
+                      روزنامه و مجله در ستون و سطرآنچنان که لازم است، و برای
+                      شرایط فعلی تکنولوژی مورد نیاز، و کاربردهای متنوع با هدف
+                      بهبود ابزارهای کاربردی می باشد، کتابهای زیادی در شصت و سه
+                      درصد گذشته حال و آینده، شناخت فراوان جامعه و متخصصان را می
+                      طلبد، تا با نرم افزارها شناخت بیشتری را برای طراحان رایانه
+                      ای علی الخصوص طراحان خلاقی، و فرهنگ پیشرو در زبان فارسی
+                      ایجاد کرد، در این صورت می توان امید داشت که تمام و دشواری
+                      موجود در ارائه راهکارها، و شرایط سخت تایپ به پایان رسد و
+                      زمان مورد نیاز شامل حروفچینی دستاوردهای اصلی، و جوابگوی
+                      سوالات پیوسته اهل دنیای موجود طراحی اساسا مورد استفاده
+                      قرار گیرد.
+                    </p>
+                  </div>
+                </div>
+              </div>
+
+              <div class="col-lg-6 p-4 d-flex justify-content-center">
+                <div class="support">
+                  <div
+                    style="
+                      background-color: rgba(255, 255, 255, 0.8);
+                      border-radius: 10px;
+                      padding: 30px;
+                      width: fit-content;
+                      height: fit-content;
+                    "
+                  >
+                    <h6 style="color: #009fd1">پشتیبانی و خدمات مشتری سایت</h6>
+                    <p>
+                      لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ،
+                      و با استفاده از طراحان گرافیک است، چاپگرها و متون بلکه
+                      روزنامه و مجله در ستون و سطرآنچنان که لازم است، و برای
+                      شرایط فعلی تکنولوژی مورد نیاز، و کاربردهای متنوع با هدف
+                      بهبود ابزارهای کاربردی می باشد، کتابهای زیادی در شصت و سه
+                      درصد گذشته حال و آینده، شناخت فراوان جامعه و متخصصان را می
+                      طلبد، تا با نرم افزارها شناخت بیشتری را برای طراحان رایانه
+                      ای علی الخصوص طراحان خلاقی، و فرهنگ پیشرو در زبان فارسی
+                      ایجاد کرد، در این صورت می توان امید داشت که تمام و دشواری
+                      موجود در ارائه راهکارها، و شرایط سخت تایپ به پایان رسد و
+                      زمان مورد نیاز شامل حروفچینی دستاوردهای اصلی، و جوابگوی
+                      سوالات پیوسته اهل دنیای موجود طراحی اساسا مورد استفاده
+                      قرار گیرد.
+                    </p>
+                  </div>
+                </div>
+              </div>
+
+              <div class="col-lg-6 p-4 d-flex justify-content-center">
+                <div class="support">
+                  <div
+                    style="
+                      background-color: rgba(255, 255, 255, 0.8);
+                      border-radius: 10px;
+                      padding: 30px;
+                      width: fit-content;
+                      height: fit-content;
+                    "
+                  >
+                    <h6 style="color: #009fd1">پشتیبانی و خدمات مشتری سایت</h6>
+                    <p>
+                      لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ،
+                      و با استفاده از طراحان گرافیک است، چاپگرها و متون بلکه
+                      روزنامه و مجله در ستون و سطرآنچنان که لازم است، و برای
+                      شرایط فعلی تکنولوژی مورد نیاز، و کاربردهای متنوع با هدف
+                      بهبود ابزارهای کاربردی می باشد، کتابهای زیادی در شصت و سه
+                      درصد گذشته حال و آینده، شناخت فراوان جامعه و متخصصان را می
+                      طلبد، تا با نرم افزارها شناخت بیشتری را برای طراحان رایانه
+                      ای علی الخصوص طراحان خلاقی، و فرهنگ پیشرو در زبان فارسی
+                      ایجاد کرد، در این صورت می توان امید داشت که تمام و دشواری
+                      موجود در ارائه راهکارها، و شرایط سخت تایپ به پایان رسد و
+                      زمان مورد نیاز شامل حروفچینی دستاوردهای اصلی، و جوابگوی
+                      سوالات پیوسته اهل دنیای موجود طراحی اساسا مورد استفاده
+                      قرار گیرد.
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- 
+          <div
+            class="d-lg-flex d-none justify-content-center align-items-center"
+          >
             <div
               style="
+                margin-top: -10rem;
                 position: absolute;
-                z-index: -10;
-                width: 640px;
-                height: 390px;
-                right: 25%;
-                top: 190px;
+                z-index: -1;
+                width: fit-content;
+                top: 47%;
               "
-              class="d-none d-lg-block"
             >
               <img
-                style="width: 100%"
+                style="width: 500px; opacity: 1"
                 src="./image/main/Rectangle 39273.png"
                 alt=""
               />
             </div>
-          </div>
-          <div class="row text-center justify-content-center">
-            <div class="col-lg-6 mb-5" style="width: 540px; height: 350px">
-              <div
-                style="
-                  background-color: rgba(255, 255, 255, 0.8);
-                  border-radius: 10px;
-                  padding: 30px;
-                  width: 510px;
-                  height: 350px;
-                "
-              >
-                <h6 style="color: #009fd1">پشتیبانی و خدمات مشتری سایت</h6>
-                <p>
-                  لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ، و
-                  با استفاده از طراحان گرافیک است، چاپگرها و متون بلکه روزنامه و
-                  مجله در ستون و سطرآنچنان که لازم است، و برای شرایط فعلی
-                  تکنولوژی مورد نیاز، و کاربردهای متنوع با هدف بهبود ابزارهای
-                  کاربردی می باشد، کتابهای زیادی در شصت و سه درصد گذشته حال و
-                  آینده، شناخت فراوان جامعه و متخصصان را می طلبد، تا با نرم
-                  افزارها شناخت بیشتری را برای طراحان رایانه ای علی الخصوص
-                  طراحان خلاقی، و فرهنگ پیشرو در زبان فارسی ایجاد کرد، در این
-                  صورت می توان امید داشت که تمام و دشواری موجود در ارائه
-                  راهکارها، و شرایط سخت تایپ به پایان رسد و زمان مورد نیاز شامل
-                  حروفچینی دستاوردهای اصلی، و جوابگوی سوالات پیوسته اهل دنیای
-                  موجود طراحی اساسا مورد استفاده قرار گیرد.
-                </p>
-              </div>
-            </div>
+          </div> -->
+          <!-- Swiper -->
+          <section>
+            <div class="">
+              <h5 class="text-center mt-5 mb-4 costumer" style="color: #000000">
+                مشتریان ما
+              </h5>
+              <div class="swiper myswiper2">
+                <div class="swiper-wrapper" style="height: fit-content">
+                  <div class="swiper-slide" style="background: none">
+                    <div
+                      style="border-radius: 5px; width: 125px; height: 125px"
+                    >
+                      <img
+                        style="width: 100%"
+                        src="./image/costumer/Rectangle 16.png"
+                        alt=""
+                      />
+                    </div>
+                  </div>
 
-            <div class="col-lg-6 mb-5" style="width: 540px; height: 350px">
-              <div
-                style="
-                  background-color: rgba(255, 255, 255, 0.8);
-                  border-radius: 10px;
-                  padding: 30px;
-                  width: 510px;
-                  height: 350px;
-                "
-              >
-                <h6 style="color: #009fd1">پشتیبانی و خدمات مشتری سایت</h6>
-                <p>
-                  لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ، و
-                  با استفاده از طراحان گرافیک است، چاپگرها و متون بلکه روزنامه و
-                  مجله در ستون و سطرآنچنان که لازم است، و برای شرایط فعلی
-                  تکنولوژی مورد نیاز، و کاربردهای متنوع با هدف بهبود ابزارهای
-                  کاربردی می باشد، کتابهای زیادی در شصت و سه درصد گذشته حال و
-                  آینده، شناخت فراوان جامعه و متخصصان را می طلبد، تا با نرم
-                  افزارها شناخت بیشتری را برای طراحان رایانه ای علی الخصوص
-                  طراحان خلاقی، و فرهنگ پیشرو در زبان فارسی ایجاد کرد، در این
-                  صورت می توان امید داشت که تمام و دشواری موجود در ارائه
-                  راهکارها، و شرایط سخت تایپ به پایان رسد و زمان مورد نیاز شامل
-                  حروفچینی دستاوردهای اصلی، و جوابگوی سوالات پیوسته اهل دنیای
-                  موجود طراحی اساسا مورد استفاده قرار گیرد.
-                </p>
-              </div>
-            </div>
+                  <div class="swiper-slide" style="background: none">
+                    <div
+                      style="border-radius: 5px; width: 125px; height: 125px"
+                    >
+                      <img
+                        style="width: 100%"
+                        src="./image/costumer/Rectangle 17.png"
+                        alt=""
+                      />
+                    </div>
+                  </div>
 
-            <div class="col-lg-6 mb-5" style="width: 540px; height: 350px">
-              <div
-                style="
-                  background-color: rgba(255, 255, 255, 0.8);
-                  border-radius: 10px;
-                  padding: 30px;
-                  width: 510px;
-                  height: 350px;
-                "
-              >
-                <h6 style="color: #009fd1">پشتیبانی و خدمات مشتری سایت</h6>
-                <p>
-                  لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ، و
-                  با استفاده از طراحان گرافیک است، چاپگرها و متون بلکه روزنامه و
-                  مجله در ستون و سطرآنچنان که لازم است، و برای شرایط فعلی
-                  تکنولوژی مورد نیاز، و کاربردهای متنوع با هدف بهبود ابزارهای
-                  کاربردی می باشد، کتابهای زیادی در شصت و سه درصد گذشته حال و
-                  آینده، شناخت فراوان جامعه و متخصصان را می طلبد، تا با نرم
-                  افزارها شناخت بیشتری را برای طراحان رایانه ای علی الخصوص
-                  طراحان خلاقی، و فرهنگ پیشرو در زبان فارسی ایجاد کرد، در این
-                  صورت می توان امید داشت که تمام و دشواری موجود در ارائه
-                  راهکارها، و شرایط سخت تایپ به پایان رسد و زمان مورد نیاز شامل
-                  حروفچینی دستاوردهای اصلی، و جوابگوی سوالات پیوسته اهل دنیای
-                  موجود طراحی اساسا مورد استفاده قرار گیرد.
-                </p>
-              </div>
-            </div>
+                  <div class="swiper-slide" style="background: none">
+                    <div
+                      style="border-radius: 5px; width: 125px; height: 125px"
+                    >
+                      <img
+                        style="width: 100%"
+                        src="./image/costumer/Rectangle 18.png"
+                        alt=""
+                      />
+                    </div>
+                  </div>
 
-            <div class="col-lg-6 mb-5" style="width: 540px; height: 350px">
-              <div
-                style="
-                  background-color: rgba(255, 255, 255, 0.8);
-                  border-radius: 10px;
-                  padding: 30px;
-                  width: 510px;
-                  height: 350px;
-                "
-              >
-                <h6 style="color: #009fd1">پشتیبانی و خدمات مشتری سایت</h6>
-                <p>
-                  لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ، و
-                  با استفاده از طراحان گرافیک است، چاپگرها و متون بلکه روزنامه و
-                  مجله در ستون و سطرآنچنان که لازم است، و برای شرایط فعلی
-                  تکنولوژی مورد نیاز، و کاربردهای متنوع با هدف بهبود ابزارهای
-                  کاربردی می باشد، کتابهای زیادی در شصت و سه درصد گذشته حال و
-                  آینده، شناخت فراوان جامعه و متخصصان را می طلبد، تا با نرم
-                  افزارها شناخت بیشتری را برای طراحان رایانه ای علی الخصوص
-                  طراحان خلاقی، و فرهنگ پیشرو در زبان فارسی ایجاد کرد، در این
-                  صورت می توان امید داشت که تمام و دشواری موجود در ارائه
-                  راهکارها، و شرایط سخت تایپ به پایان رسد و زمان مورد نیاز شامل
-                  حروفچینی دستاوردهای اصلی، و جوابگوی سوالات پیوسته اهل دنیای
-                  موجود طراحی اساسا مورد استفاده قرار گیرد.
-                </p>
+                  <div class="swiper-slide" style="background: none">
+                    <div
+                      style="border-radius: 5px; width: 125px; height: 125px"
+                    >
+                      <img
+                        style="width: 100%"
+                        src="./image/costumer/Rectangle 19.png"
+                        alt=""
+                      />
+                    </div>
+                  </div>
+
+                  <div class="swiper-slide" style="background: none">
+                    <div
+                      style="border-radius: 5px; width: 125px; height: 125px"
+                    >
+                      <img
+                        style="width: 100%"
+                        src="./image/costumer/Rectangle 20.png"
+                        alt=""
+                      />
+                    </div>
+                  </div>
+
+                  <div class="swiper-slide" style="background: none">
+                    <div
+                      style="border-radius: 5px; width: 125px; height: 125px"
+                    >
+                      <img
+                        style="width: 100%"
+                        src="./image/costumer/Rectangle 21.png"
+                        alt=""
+                      />
+                    </div>
+                  </div>
+
+                  <div class="swiper-slide" style="background: none">
+                    <div
+                      style="border-radius: 5px; width: 125px; height: 125px"
+                    >
+                      <img
+                        style="width: 100%"
+                        src="./image/costumer/Rectangle 23.png"
+                        alt=""
+                      />
+                    </div>
+                  </div>
+                </div>
               </div>
             </div>
-          </div>
+          </section>
+
+          <!-- Swiper -->
+          <section style="margin: 5rem 0">
+            <div class="container">
+              <a
+                href=""
+                class="d-flex justify-content-center mt-5 mb-5"
+                style="
+                  font-size: 20px;
+                  font-weight: 600;
+                  background: -webkit-linear-gradient(
+                    90deg,
+                    #a47a1e 0%,
+                    #d3a84c 22.79%,
+                    #ffec94 41.4%,
+                    #e6be69 58.6%,
+                    #ffd87c 77.22%,
+                    #b58f3e 100.01%
+                  );
+                  -webkit-background-clip: text;
+                  -webkit-text-fill-color: transparent;
+                "
+              >
+                نمونه کارهای ما
+              </a>
+              <div class="Swiper myswiper3">
+                <div class="swiper-wrapper" style="height: fit-content">
+                  <div class="swiper-slide" style="background: none">
+                    <div class="d-flex flex-column align-items-center">
+                      <a href="">
+                        <div
+                          style="
+                            border-radius: 5px;
+                            width: 230px;
+                            height: 250px;
+                          "
+                        >
+                          <img
+                            style="width: 100%"
+                            src="./image/examples/Rectangle 10 (1).png"
+                            alt=""
+                          />
+                        </div>
+                      </a>
+                      <a
+                        class="mt-4 costumer text-black"
+                        style="font-size: 14px"
+                        href=""
+                      >
+                        وبسایت شرکتی شاداکلاب
+                      </a>
+                    </div>
+                  </div>
+
+                  <div class="swiper-slide" style="background: none">
+                    <div class="d-flex flex-column align-items-center">
+                      <a href="">
+                        <div
+                          style="
+                            border-radius: 5px;
+                            width: 230px;
+                            height: 250px;
+                          "
+                        >
+                          <img
+                            style="width: 100%"
+                            src="./image/examples/Rectangle 11.png"
+                            alt=""
+                          />
+                        </div>
+                      </a>
+                      <a
+                        class="mt-4 costumer text-black"
+                        style="font-size: 14px"
+                        href=""
+                      >
+                        وبسایت شرکتی شاداکلاب
+                      </a>
+                    </div>
+                  </div>
+
+                  <div class="swiper-slide" style="background: none">
+                    <div class="d-flex flex-column align-items-center">
+                      <a href="">
+                        <div
+                          style="
+                            border-radius: 5px;
+                            width: 230px;
+                            height: 250px;
+                          "
+                        >
+                          <img
+                            style="width: 100%"
+                            src="./image/examples/Rectangle 12.png"
+                            alt=""
+                          />
+                        </div>
+                      </a>
+                      <a
+                        class="mt-4 costumer text-black"
+                        style="font-size: 14px"
+                        href=""
+                      >
+                        وبسایت شرکتی شاداکلاب
+                      </a>
+                    </div>
+                  </div>
+
+                  <div class="swiper-slide" style="background: none">
+                    <div class="d-flex flex-column align-items-center">
+                      <a href="">
+                        <div
+                          style="
+                            border-radius: 5px;
+                            width: 230px;
+                            height: 250px;
+                          "
+                        >
+                          <img
+                            style="width: 100%"
+                            src="./image/examples/Rectangle 13.png"
+                            alt=""
+                          />
+                        </div>
+                      </a>
+                      <a
+                        class="mt-4 costumer text-black"
+                        style="font-size: 14px"
+                        href=""
+                      >
+                        وبسایت شرکتی شاداکلاب
+                      </a>
+                    </div>
+                  </div>
+
+                  <div class="swiper-slide" style="background: none">
+                    <div class="d-flex flex-column align-items-center">
+                      <a href="">
+                        <div
+                          style="
+                            border-radius: 5px;
+                            width: 230px;
+                            height: 250px;
+                          "
+                        >
+                          <img
+                            style="width: 100%"
+                            src="./image/examples/Rectangle 10 (1).png"
+                            alt=""
+                          />
+                        </div>
+                      </a>
+                      <a
+                        class="mt-4 costumer text-black"
+                        style="font-size: 14px"
+                        href=""
+                      >
+                        وبسایت شرکتی شاداکلاب
+                      </a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </section>
+
+          <!-- Swiper -->
+          <section style="padding-bottom: 5rem">
+            <div class="container">
+              <a
+                href=""
+                class="d-flex justify-content-center mt-5 mb-5"
+                style="
+                  font-size: 20px;
+                  font-weight: 600;
+                  background: -webkit-linear-gradient(
+                    90deg,
+                    #a47a1e 0%,
+                    #d3a84c 22.79%,
+                    #ffec94 41.4%,
+                    #e6be69 58.6%,
+                    #ffd87c 77.22%,
+                    #b58f3e 100.01%
+                  );
+                  -webkit-background-clip: text;
+                  -webkit-text-fill-color: transparent;
+                "
+              >
+                مقالات
+              </a>
+              <div class="swiper myswiper4">
+                <div class="swiper-wrapper" style="height: fit-content">
+                  <div class="swiper-slide" style="max-width: 275px">
+                    <div style="padding: 20px">
+                      <div
+                        style="
+                          border-radius: 5px;
+                          height: 170px;
+                          max-width: 230px;
+                          margin: auto;
+                        "
+                      >
+                        <img
+                          style="width: 100%; height: 100%; border-radius: 5px"
+                          src="./image/main/Rectangle 22.png"
+                          alt=""
+                        />
+                      </div>
+                      <div style="margin-top: 1rem; text-align: start">
+                        <h6>معرفی 4 مارکت پلیس ایرانی</h6>
+                        <p style="font-size: 12px; line-height: 22px">
+                          لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت
+                          چاپ و با استفاده از طراحان گرافیک است چاپگرها و متون
+                          بلکه روزنامه و مجله در ستون و سطرآنچنان که لازم است.
+                        </p>
+                      </div>
+                      <div>
+                        <button class="see-more-btn2">مشاهده بیشتر</button>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="swiper-slide" style="max-width: 275px">
+                    <div style="padding: 20px">
+                      <div
+                        style="
+                          border-radius: 5px;
+                          height: 170px;
+                          max-width: 230px;
+                          margin: auto;
+                        "
+                      >
+                        <img
+                          style="width: 100%; height: 100%; border-radius: 5px"
+                          src="./image/main/Rectangle 22 (1).png"
+                          alt=""
+                        />
+                      </div>
+                      <div style="margin-top: 1rem; text-align: start">
+                        <h6>معرفی 4 مارکت پلیس ایرانی</h6>
+                        <p style="font-size: 12px; line-height: 22px">
+                          لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت
+                          چاپ و با استفاده از طراحان گرافیک است چاپگرها و متون
+                          بلکه روزنامه و مجله در ستون و سطرآنچنان که لازم است.
+                        </p>
+                      </div>
+                      <div>
+                        <button class="see-more-btn2">مشاهده بیشتر</button>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="swiper-slide" style="max-width: 275px">
+                    <div style="padding: 20px">
+                      <div
+                        style="
+                          border-radius: 5px;
+                          height: 170px;
+                          max-width: 230px;
+                          margin: auto;
+                        "
+                      >
+                        <img
+                          style="width: 100%; height: 100%; border-radius: 5px"
+                          src="./image/main/Rectangle 22 (2).png"
+                          alt=""
+                        />
+                      </div>
+                      <div style="margin-top: 1rem; text-align: start">
+                        <h6>معرفی 4 مارکت پلیس ایرانی</h6>
+                        <p style="font-size: 12px; line-height: 22px">
+                          لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت
+                          چاپ و با استفاده از طراحان گرافیک است چاپگرها و متون
+                          بلکه روزنامه و مجله در ستون و سطرآنچنان که لازم است.
+                        </p>
+                      </div>
+                      <div>
+                        <button class="see-more-btn2">مشاهده بیشتر</button>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="swiper-slide" style="max-width: 275px">
+                    <div style="padding: 20px">
+                      <div
+                        style="
+                          border-radius: 5px;
+                          height: 170px;
+                          max-width: 230px;
+                          margin: auto;
+                        "
+                      >
+                        <img
+                          style="width: 100%; height: 100%; border-radius: 5px"
+                          src="./image/main/Rectangle 22 (3).png"
+                          alt=""
+                        />
+                      </div>
+                      <div style="margin-top: 1rem; text-align: start">
+                        <h6>معرفی 4 مارکت پلیس ایرانی</h6>
+                        <p style="font-size: 12px; line-height: 22px">
+                          لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت
+                          چاپ و با استفاده از طراحان گرافیک است چاپگرها و متون
+                          بلکه روزنامه و مجله در ستون و سطرآنچنان که لازم است.
+                        </p>
+                      </div>
+                      <div>
+                        <button class="see-more-btn2">مشاهده بیشتر</button>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="swiper-slide" style="max-width: 275px">
+                    <div style="padding: 20px">
+                      <div
+                        style="
+                          border-radius: 5px;
+                          height: 170px;
+                          max-width: 230px;
+                          margin: auto;
+                        "
+                      >
+                        <img
+                          style="width: 100%; height: 100%; border-radius: 5px"
+                          src="./image/main/Rectangle 22.png"
+                          alt=""
+                        />
+                      </div>
+                      <div style="margin-top: 1rem; text-align: start">
+                        <h6>معرفی 4 مارکت پلیس ایرانی</h6>
+                        <p style="font-size: 12px; line-height: 22px">
+                          لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت
+                          چاپ و با استفاده از طراحان گرافیک است چاپگرها و متون
+                          بلکه روزنامه و مجله در ستون و سطرآنچنان که لازم است.
+                        </p>
+                      </div>
+                      <div>
+                        <button class="see-more-btn2">مشاهده بیشتر</button>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </section>
         </div>
-      </section>
-
-      <!-- Swiper -->
-      <section style="margin-bottom: 5rem">
-        <div class="container">
-          <div>
-            <div class="swiper myswiper">
-              <div class="swiper-wrapper">
-                <div class="swiper-slide">
-                  <div style="padding: 20px 20px 0 20px">
-                    <div style="border-radius: 5px">
-                      <img
-                        style="width: 100%"
-                        src="./image/main/Rectangle 7.png"
-                        alt=""
-                      />
-                    </div>
-                  </div>
-                </div>
-                <div class="swiper-slide">
-                  <div style="padding: 20px 20px 0 20px">
-                    <div style="border-radius: 5px">
-                      <img
-                        style="width: 100%"
-                        src="./image/main/Rectangle 7.png"
-                        alt=""
-                      />
-                    </div>
-                   
-                  </div>
-                </div>
-                <div class="swiper-slide">
-                  <div style="padding: 20px 20px 0 20px">
-                    <div style="border-radius: 5px">
-                      <img
-                        style="width: 100%"
-                        src="./image/main/Rectangle 7.png"
-                        alt=""
-                      />
-                    </div>
-                   
-                  </div>
-                </div>
-                <div class="swiper-slide">
-                  <div style="padding: 20px 20px 0 20px">
-                    <div style="border-radius: 5px">
-                      <img
-                        style="width: 100%"
-                        src="./image/main/Rectangle 7.png"
-                        alt=""
-                      />
-                    </div>
-                   
-                  </div>
-                </div>
-                <div class="swiper-slide">
-                  <div style="padding: 20px 20px 0 20px">
-                    <div style="border-radius: 5px">
-                      <img
-                        style="width: 100%"
-                        src="./image/main/Rectangle 7.png"
-                        alt=""
-                      />
-                    </div>
-                   
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </section>
+      </div>
     </main>
+
+    <!-- footer   -->
+
+    <footer>
+      <div style="background-color: #000000">
+        <div class="container text-white">
+          <div
+            class="row text-white justify-content-between"
+            style="
+              padding: 3rem 0;
+              line-height: 40px;
+              font-size: 11px;
+              margin: 0 0.5rem;
+            "
+          >
+            <div class="col-lg-4 p-0 mb-4">
+              <h5 class="mb-4 fw-semibold golden-color">درباره ما</h5>
+              <p style="text-align: justify; line-height: 25px">
+                لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ، و با
+                استفاده از طراحان گرافیک است، چاپگرها و متون بلکه روزنامه و مجله
+                در ستون و سطرآنچنان که لازم است، و برای شرایط فعلی تکنولوژی مورد
+                نیاز، و کاربردهای متنوع با هدف بهبود کاربرد و تنوع با هدف طراحان
+                گرافیک است، چاپگرها و متون بلکه روزنامه و مجله در ستون و
+                سطرآنچنان بهبود.
+              </p>
+            </div>
+
+            <div class="col-lg-2 col-sm-6 p-0 mb-4">
+              <h5 class="mb-4 fw-semibold golden-color">دسترسی سریع</h5>
+              <div class="mb-3 d-flex align-items-center">
+                <i class="bi bi-dot fs-1 golden-color"></i>
+                <a href="" class="text-white"> درباره ما </a>
+              </div>
+
+              <div class="mb-3 d-flex align-items-center">
+                <i class="bi bi-dot fs-1 golden-color"></i>
+                <a href="" class="text-white"> تماس با ما </a>
+              </div>
+
+              <div class="mb-3 d-flex align-items-center">
+                <i class="bi bi-dot fs-1 golden-color"></i>
+                <a href="" class="text-white"> قوانین و مقررات </a>
+              </div>
+            </div>
+
+            <div class="col-lg-2 col-sm-6 p-0 mb-4">
+              <h5 class="mb-4 fw-semibold golden-color">دسترسی سریع</h5>
+              <div class="mb-3 d-flex align-items-center">
+                <i class="bi bi-dot fs-1 golden-color"></i>
+                <a href="" class="text-white"> درباره ما </a>
+              </div>
+
+              <div class="mb-3 d-flex align-items-center">
+                <i class="bi bi-dot fs-1 golden-color"></i>
+                <a href="" class="text-white"> تماس با ما </a>
+              </div>
+
+              <div class="mb-3 d-flex align-items-center">
+                <i class="bi bi-dot fs-1 golden-color"></i>
+                <a href="" class="text-white"> قوانین و مقررات </a>
+              </div>
+            </div>
+
+            <div class="col-lg-3 p-0 mb-4">
+              <h5 class="mb-4 fw-semibold golden-color">ارتباط با ما</h5>
+
+              <div class="d-flex" style="width: max-content">
+                <i class="bi bi-dot fs-1 golden-color"></i>
+                <p href="">ایمیل: info@negaclub.ir</p>
+              </div>
+
+              <div class="d-flex" style="width: max-content">
+                <i class="bi bi-dot fs-1 golden-color"></i>
+                <p href="">تلفن: 026-342392311 0263423922</p>
+              </div>
+
+              <div class="d-flex" style="width: max-content">
+                <i class="bi bi-dot fs-1 golden-color"></i>
+                <p href="" style="font-size: 11px">
+                  آدرس: تهران، خیابان شهید بهشتی، کوچه لاله،پلاک 2
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </footer>
 
     <script src="./script/bootstrap.bundle.min.js"></script>
 
@@ -716,12 +1466,12 @@
           },
           // when window width is >= 640px
           425: {
-            slidesPerView: 1.75,
+            slidesPerView: 1.5,
             spaceBetween: 40,
           },
           640: {
             slidesPerView: 2.5,
-            spaceBetween: 40,
+            spaceBetween: 50,
           },
           800: {
             slidesPerView: 3.25,
@@ -738,43 +1488,114 @@
         },
       });
     </script>
+    <script>
+      var swiper = new Swiper(".myswiper2", {
+        breakpoints: {
+          // when window width is >= 320px
+          320: {
+            slidesPerView: 1.75,
+            spaceBetween: 20,
+          },
+          // when window width is >= 480px
+          375: {
+            slidesPerView: 2.5,
+            spaceBetween: 30,
+          },
+          // when window width is >= 640px
+          425: {
+            slidesPerView: 2.75,
+            spaceBetween: 40,
+          },
+          640: {
+            slidesPerView: 5,
+            spaceBetween: 40,
+          },
+          800: {
+            slidesPerView: 5.5,
+            spaceBetween: 40,
+          },
+          1100: {
+            slidesPerView: 6,
+            spaceBetween: 40,
+          },
+          1440: {
+            slidesPerView: 7,
+            spaceBetween: 40,
+          },
+        },
+      });
 
-<script>
-  var swiper = new Swiper(".myswiper2", {
-    breakpoints: {
-      // when window width is >= 320px
-      320: {
-        slidesPerView: 1.25,
-        spaceBetween: 20,
-      },
-      // when window width is >= 480px
-      375: {
-        slidesPerView: 1.5,
-        spaceBetween: 30,
-      },
-      // when window width is >= 640px
-      425: {
-        slidesPerView: 1.75,
-        spaceBetween: 40,
-      },
-      640: {
-        slidesPerView: 2.5,
-        spaceBetween: 40,
-      },
-      800: {
-        slidesPerView: 3.25,
-        spaceBetween: 40,
-      },
-      1100: {
-        slidesPerView: 4,
-        spaceBetween: 40,
-      },
-      1440: {
-        slidesPerView: 4.5,
-        spaceBetween: 40,
-      },
-    },
-  });
-</script>
+      var swiper = new Swiper(".myswiper3", {
+        breakpoints: {
+          // when window width is >= 320px
+          320: {
+            slidesPerView: 1.125,
+            spaceBetween: 20,
+          },
+          // when window width is >= 480px
+          375: {
+            slidesPerView: 1.25,
+            spaceBetween: 30,
+          },
+          // when window width is >= 640px
+          425: {
+            slidesPerView: 1.5,
+            spaceBetween: 40,
+          },
+          640: {
+            slidesPerView: 2.5,
+            spaceBetween: 40,
+          },
+          800: {
+            slidesPerView: 3,
+            spaceBetween: 40,
+          },
+          1100: {
+            slidesPerView: 4,
+            spaceBetween: 40,
+          },
+          1440: {
+            slidesPerView: 4.5,
+            spaceBetween: 40,
+          },
+        },
+      });
+
+      var swiper = new Swiper(".myswiper4", {
+        breakpoints: {
+          // when window width is >= 320px
+          320: {
+            slidesPerView: 1,
+            spaceBetween: 20,
+          },
+          // when window width is >= 480px
+          375: {
+            slidesPerView: 1.25,
+            spaceBetween: 30,
+          },
+          // when window width is >= 640px
+          425: {
+            slidesPerView: 1.5,
+            spaceBetween: 40,
+          },
+          640: {
+            slidesPerView: 2.5,
+            spaceBetween: 40,
+          },
+          800: {
+            slidesPerView: 3,
+            spaceBetween: 40,
+          },
+          1100: {
+            slidesPerView: 3.5,
+            spaceBetween: 40,
+          },
+          1440: {
+            slidesPerView: 3.75,
+            spaceBetween: 80,
+          },
+        },
+      });
+    </script>
   </body>
 </html>

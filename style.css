@@ -1,0 +1,100 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: iransans;
+  direction: rtl;
+}
+@font-face {
+  font-family: "Trickster";
+  src: url("/iransans/ir_sans.ttf") url("/iransans/IRANSans\(FaNum\).ttf");
+}
+a {
+  text-decoration: none;
+}
+
+.nav-links {
+  color: #ffffff;
+  font-size: 14px;
+}
+h5 {
+  font-size: 20px;
+  line-height: 40px;
+}
+p {
+  font-size: 14px;
+  line-height: 25px;
+  text-align: justify;
+}
+.see-more-btn {
+  border: none;
+  background-color: #009fd1;
+  border-radius: 10px 10px 0 0;
+  color: #ffffff;
+  font-size: 14px;
+  padding: 10px 25px;
+}
+
+.see-more-btn2 {
+  border: none;
+  color: #009fd1;
+  font-size: 14px;
+  background: none;
+}
+
+.golden-color{
+  font-size: 20px;
+  font-weight: 600;
+  background: -webkit-linear-gradient(
+    90deg,
+    #a47a1e 0%,
+    #d3a84c 22.79%,
+    #ffec94 41.4%,
+    #e6be69 58.6%,
+    #ffd87c 77.22%,
+    #b58f3e 100.01%
+  );
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.golden-icon{
+  background: -webkit-linear-gradient(
+    90deg,
+    #a47a1e 0%,
+    #d3a84c 22.79%,
+    #ffec94 41.4%,
+    #e6be69 58.6%,
+    #ffd87c 77.22%,
+    #b58f3e 100.01%
+  );
+}
+@media screen and (min-width: 770px) {
+  .main1 {
+    background-image: url(./image/backgraound/ui\ bg.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height:fit-content;
+    width: 100%;
+  }
+  .main2 {
+    background-image: url(./image/backgraound/Landing\ Page22.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: fit-content;
+    width: 100%;
+    /* position: relative;
+    z-index: -11; */
+  }
+ 
+}
+@media screen and (min-width: 1440px) {
+  .support {
+    width: 540px !important;
+  }
+}
+@media screen and (min-width: 1700px) {
+  .costumer {
+    color: #000000 !important;
+  }
+
+}
