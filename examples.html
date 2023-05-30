@@ -13,69 +13,218 @@
       href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css"
     />
     <link rel="stylesheet" href="./css/examples.css" />
-    <script src="./script/bootstrap.bundle.min.js"></script>
+    <link rel="stylesheet" href="./style.css" />
     <title>Examples</title>
   </head>
   <body>
-    <div class="container">
-      <h1>نمونه کارها</h1>
+    <div class="container mt-5">
+      <!-- <h1>نمونه کارها</h1> -->
+      <nav>
+        <div class="nav nav-tabs" id="nav-tab" role="tablist">
 
-      <div class="tabs">
-        <div class="tabby-tab">
-          <input type="radio" id="tab-1" name="tabby-tabs" checked />
-          <label for="tab-1">همه</label>
-          <div class="tabby-content">
-            <div class="card" style="width: 18rem">
-              <a href="">
-                <img src="..." class="card-img-top" alt="..." />
-                <!-- <div class="card-body">
-                  <p class="card-text"></p>
-                </div> -->
-              </a>
+          <!-- all  -->
+          <button
+            class="nav-link active text-black hover"
+            id="nav-home-tab"
+            data-bs-toggle="tab"
+            data-bs-target="#nav-home"
+            type="button"
+            role="tab"
+            aria-controls="nav-home"
+            aria-selected="true"
+          >
+            همه
+          </button>
+
+          <!-- company -->
+          <button
+            class="nav-link  text-black hover"
+            id="nav-profile-tab"
+            data-bs-toggle="tab"
+            data-bs-target="#nav-profile"
+            type="button"
+            role="tab"
+            aria-controls="nav-profile"
+            aria-selected="false"
+          >
+            شرکتی
+          </button>
+
+          <!-- store -->
+          <button
+            class="nav-link text-black hover"
+            id="nav-contact-tab"
+            data-bs-toggle="tab"
+            data-bs-target="#nav-contact"
+            type="button"
+            role="tab"
+            aria-controls="nav-contact"
+            aria-selected="false"
+          >
+            فروشگاهی
+          </button>
+        </div>
+      </nav>
+
+      <!-- tabs content -->
+      <div class="tab-content" id="nav-tabContent">
+        <div
+          class="tab-pane fade show active"
+          id="nav-home"
+          role="tabpanel"
+          aria-labelledby="nav-home-tab"
+        >
+          <div class="card border-0" style="width: 100%">
+            <div class="row justify-content-between w-100 h-100">
+              <div class="col-lg-3 col-md-4 rounded-1 mt-4">
+                <a href=""
+                  ><img
+                    src="./image/examples/domenico-loia-EhTcC9sYXsw-unsplash.jpg"
+                    class="card-img-top img-fluid w-100 rounded-1"
+                    alt="..."
+                /></a>
+              </div>
+              <div class="col-lg-3 col-md-4 rounded-1 mt-4">
+                <a href=""
+                  ><img
+                    src="./image/examples/domenico-loia-EhTcC9sYXsw-unsplash.jpg"
+                    class="card-img-top img-fluid w-100 rounded-1"
+                    alt="..."
+                /></a>
+              </div>
+              <div class="col-lg-3 col-md-4 rounded-1 mt-4">
+                <a href=""
+                  ><img
+                    src="./image/examples/domenico-loia-EhTcC9sYXsw-unsplash.jpg"
+                    class="card-img-top img-fluid w-100 rounded-1"
+                    alt="..."
+                /></a>
+              </div>
+              <div class="col-lg-3 col-md-4 rounded-1 mt-4">
+                <a href=""
+                  ><img
+                    src="./image/examples/domenico-loia-EhTcC9sYXsw-unsplash.jpg"
+                    class="card-img-top img-fluid w-100 rounded-1"
+                    alt="..."
+                /></a>
+              </div>
+              <div class="col-lg-3 col-md-4 rounded-1 mt-4">
+                <a href=""
+                  ><img
+                    src="./image/examples/domenico-loia-EhTcC9sYXsw-unsplash.jpg"
+                    class="card-img-top img-fluid w-100 rounded-1"
+                    alt="..."
+                /></a>
+              </div>
             </div>
           </div>
         </div>
-
-        <div class="tabby-tab">
-          <input type="radio" id="tab-2" name="tabby-tabs" />
-          <label for="tab-2">سایت های شرکتی</label>
-          <div class="tabby-content">
-            <img src="http://i63.tinypic.com/wtykg4.png" />
-            <p>
-              Cats go for world domination if it fits, i sits, meowwww but claw
-              drapes, or sleep in the bathroom sink. Missing until dinner time
-              under the bed, or eat from dog's food hide from vacuum cleaner
-              kick up litter but lie on your belly and purr when you are asleep.
-            </p>
+        <div
+          class="tab-pane fade"
+          id="nav-profile"
+          role="tabpanel"
+          aria-labelledby="nav-profile-tab"
+        >
+          <div class="card border-0" style="width: 100%">
+            <div class="row justify-content-between w-100 h-100">
+              <div class="col-lg-3 col-md-4 rounded-1 mt-4">
+                <a href=""
+                  ><img
+                    src="./image/examples/domenico-loia-EhTcC9sYXsw-unsplash.jpg"
+                    class="card-img-top img-fluid w-100 rounded-1"
+                    alt="..."
+                /></a>
+              </div>
+              <div class="col-lg-3 col-md-4 rounded-1 mt-4">
+                <a href=""
+                  ><img
+                    src="./image/examples/domenico-loia-EhTcC9sYXsw-unsplash.jpg"
+                    class="card-img-top img-fluid w-100 rounded-1"
+                    alt="..."
+                /></a>
+              </div>
+              <div class="col-lg-3 col-md-4 rounded-1 mt-4">
+                <a href=""
+                  ><img
+                    src="./image/examples/domenico-loia-EhTcC9sYXsw-unsplash.jpg"
+                    class="card-img-top img-fluid w-100 rounded-1"
+                    alt="..."
+                /></a>
+              </div>
+              <div class="col-lg-3 col-md-4 rounded-1 mt-4">
+                <a href=""
+                  ><img
+                    src="./image/examples/domenico-loia-EhTcC9sYXsw-unsplash.jpg"
+                    class="card-img-top img-fluid w-100 rounded-1"
+                    alt="..."
+                /></a>
+              </div>
+              <div class="col-lg-3 col-md-4 rounded-1 mt-4">
+                <a href=""
+                  ><img
+                    src="./image/examples/domenico-loia-EhTcC9sYXsw-unsplash.jpg"
+                    class="card-img-top img-fluid w-100 rounded-1"
+                    alt="..."
+                /></a>
+              </div>
+            </div>
           </div>
         </div>
-
-        <div class="tabby-tab">
-          <input type="radio" id="tab-3" name="tabby-tabs" />
-          <label for="tab-3">سایت های فروشگاهی</label>
-          <div class="tabby-content">
-            <img src="http://i66.tinypic.com/wuhy7b.png" />
-            <p>
-              Throwup on your pillow wake up human for food at 4am and hide when
-              guests come over, yet inspect anything brought into the house.
-            </p>
-          </div>
-        </div>
-
-        <div class="tabby-tab">
-          <input type="radio" id="tab-4" name="tabby-tabs" />
-          <label for="tab-4">سایت های آموزشی</label>
-          <div class="tabby-content">
-            <img src="http://i63.tinypic.com/kakc9i.png" />
-            <p>
-              Use lap as chair love to play with owner's hair tie pooping
-              rainbow while flying in a toasted bread costume in space. Run in
-              circles loves cheeseburgers, nap all day kick up litter. Stick
-              butt in face hide when guests come over.
-            </p>
+        <div
+          class="tab-pane fade"
+          id="nav-contact"
+          role="tabpanel"
+          aria-labelledby="nav-contact-tab"
+        >
+          <div class="card border-0" style="width: 100%">
+            <div class="row justify-content-between w-100 h-100">
+              <div class="col-lg-3 col-md-4 rounded-1 mt-4">
+                <a href=""
+                  ><img
+                    src="./image/examples/domenico-loia-EhTcC9sYXsw-unsplash.jpg"
+                    class="card-img-top img-fluid w-100 rounded-1"
+                    alt="..."
+                /></a>
+              </div>
+              <div class="col-lg-3 col-md-4 rounded-1 mt-4">
+                <a href=""
+                  ><img
+                    src="./image/examples/domenico-loia-EhTcC9sYXsw-unsplash.jpg"
+                    class="card-img-top img-fluid w-100 rounded-1"
+                    alt="..."
+                /></a>
+              </div>
+              <div class="col-lg-3 col-md-4 rounded-1 mt-4">
+                <a href=""
+                  ><img
+                    src="./image/examples/domenico-loia-EhTcC9sYXsw-unsplash.jpg"
+                    class="card-img-top img-fluid w-100 rounded-1"
+                    alt="..."
+                /></a>
+              </div>
+              <div class="col-lg-3 col-md-4 rounded-1 mt-4">
+                <a href=""
+                  ><img
+                    src="./image/examples/domenico-loia-EhTcC9sYXsw-unsplash.jpg"
+                    class="card-img-top img-fluid w-100 rounded-1"
+                    alt="..."
+                /></a>
+              </div>
+              <div class="col-lg-3 col-md-4 rounded-1 mt-4">
+                <a href=""
+                  ><img
+                    src="./image/examples/domenico-loia-EhTcC9sYXsw-unsplash.jpg"
+                    class="card-img-top img-fluid w-100 rounded-1"
+                    alt="..."
+                /></a>
+              </div>
+            </div>
           </div>
         </div>
       </div>
+   
     </div>
+
+    <script src="./script/bootstrap.bundle.min.js"></script>
   </body>
 </html>
