@@ -53,9 +53,8 @@ p {
     #ffd87c 77.22%,
     #b58f3e 100.01%
   );
-  background-clip: text;
-  -webkit-text-fill-color: transparent;
-}
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;}
 
 .golden-icon{
   background: -webkit-linear-gradient(
@@ -67,6 +66,14 @@ p {
     #ffd87c 77.22%,
     #b58f3e 100.01%
   );
+}
+.main-other {
+  display: none;
+  background-image: url(./image/backgraound/other.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  height:fit-content;
+  width: 100%;
 }
 @media screen and (min-width: 770px) {
   .main1 {
@@ -82,9 +89,8 @@ p {
     background-size: cover;
     height: fit-content;
     width: 100%;
-    /* position: relative;
-    z-index: -11; */
   }
+ 
   .costumer {
     color: #ffffff !important;
   }
