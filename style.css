@@ -15,6 +15,22 @@ a {
 .nav-links {
   color: #ffffff;
   font-size: 14px;
+  display: flex;
+  align-items: center;
+  height: 100%;
+  padding: 15px;
+}
+.nav-links:focus {
+  color: #000000;
+  background: -webkit-linear-gradient(
+    90deg,
+    #a47a1e 0%,
+    #d3a84c 22.79%,
+    #ffec94 41.4%,
+    #e6be69 58.6%,
+    #ffd87c 77.22%,
+    #b58f3e 100.01%
+  );
 }
 h5 {
   font-size: 20px;
