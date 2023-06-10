@@ -100,23 +100,6 @@
                           box-shadow: 0;
                         "
                       ></button>
-
-                      <input
-                        type="text"
-                        placeholder="جستجوی محصول"
-                        style="
-                          background-color: #ffffff;
-                          border: 3px solid #009fd1;
-                          border-radius: 10px;
-                          width: 100%;
-                          height: 40px;
-                          outline: none;
-                          font-size: 16px;
-                          padding-right: 1rem;
-                        "
-                        name=""
-                        id=""
-                      />
                     </div>
                   </form>
 
@@ -386,7 +369,12 @@
             class="col-lg-4 col-xl-6 d-flex align-items-center"
             style="direction: ltr"
           >
+            <!-- Button trigger modal -->
             <button
+              type="button"
+              class="btn"
+              data-bs-toggle="modal"
+              data-bs-target="#exampleModal"
               style="
                 border: none;
                 border-radius: 5px;
@@ -407,6 +395,89 @@
             >
               مشاوره رایگان
             </button>
+
+            <!-- Modal -->
+            <form action="">
+              <div
+                class="modal fade"
+                id="exampleModal"
+                tabindex="-1"
+                aria-labelledby="exampleModalLabel"
+                aria-hidden="true"
+              >
+                <div
+                  class="modal-dialog modal-dialog-centered"
+                  style="max-width: 500px"
+                >
+                  <div class="modal-content">
+                    <div class="modal-header justify-content-end">
+                      <h5 class="modal-title" id="exampleModalLabel">
+                        فرم درخواست
+                      </h5>
+                    </div>
+                    <div class="modal-body row" style="direction: rtl">
+                      <div class="col-lg-6 mb-3">
+                        <input
+                          type="text"
+                          class="form-control rounded-1"
+                          style="font-size: 12px; opacity: 0.7"
+                          placeholder="نام و نام خانوادگی"
+                          aria-label="نام و نام خانوادگی"
+                          aria-describedby="button-addon2"
+                        />
+                      </div>
+                      <div class="col-lg-6 mb-3">
+                        <input
+                          type="number"
+                          class="form-control rounded-1"
+                          style="font-size: 12px; opacity: 0.7"
+                          placeholder="شماره تماس"
+                          aria-label="شماره تماس"
+                          aria-describedby="button-addon2"
+                        />
+                      </div>
+                      <div class="col-12 mb-3">
+                        <input
+                          type="text"
+                          class="form-control rounded-1"
+                          style="font-size: 12px; opacity: 0.7"
+                          placeholder="ایمیل(اختیاری)"
+                          aria-label="ایمیل(اختیاری)"
+                          aria-describedby="button-addon2"
+                        />
+                      </div>
+                      <div class="col-12 mb-3">
+                        <textarea
+                          class="form-control"
+                          style="font-size: 12px; opacity: 0.7;resize: none;"
+                          placeholder="توضیحات(اختیاری)"
+                          id="exampleFormControlTextarea1"
+                          rows="3"
+                        ></textarea>
+                      </div>
+                    </div>
+
+                    <div class="modal-footer justify-content-start">
+                      <button
+                        style="background-color: #eb4343; color: #ffffff"
+                        type="button"
+                        class="btn"
+                        data-bs-dismiss="modal"
+                      >
+                        لغو
+                      </button>
+                      <button
+                        type="button"
+                        class="btn"
+                        style="background-color: #009fd1; color: #ffffff"
+                      >
+                        ارسال
+                      </button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </form>
           </div>
         </div>
       </div>
@@ -1367,26 +1438,40 @@
               margin: 0 0.5rem;
             "
           >
-                      
-          <div class="col-lg-2 d-none  p-0 mb-4 d-lg-flex align-items-center justify-content-center">
-            <img class="img-fluid w-100" src="./image/logo/negarineh.png" alt="" />            
-          </div>
+            <div
+              class="col-lg-2 d-none p-0 mb-4 d-lg-flex align-items-center justify-content-center"
+            >
+              <img
+                class="img-fluid w-100"
+                src="./image/logo/negarineh.png"
+                alt=""
+              />
+            </div>
 
-          <div class="col-lg-4 p-0 mb-4">
-              
-            <h5 class="mb-4 fw-semibold golden-color border-bottom border-2 rounded-1">درباره ما</h5>
-            <p style="text-align: justify; line-height: 25px; margin: 0;">
-              لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ، و با
-              استفاده از طراحان گرافیک است، چاپگرها و متون بلکه روزنامه و مجله
-              در ستون و سطرآنچنان که لازم است، و برای شرایط فعلی ...
-            </p>
-            <a class="d-flex justify-content-end" style="color: #009fd1;" href="">
-              بیشتر...
-            </a>
-          </div>
+            <div class="col-lg-4 p-0 mb-4">
+              <h5
+                class="mb-4 fw-semibold golden-color border-bottom border-2 rounded-1"
+              >
+                درباره ما
+              </h5>
+              <p style="text-align: justify; line-height: 25px; margin: 0">
+                لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ، و با
+                استفاده از طراحان گرافیک است، چاپگرها و متون بلکه روزنامه و مجله
+                در ستون و سطرآنچنان که لازم است، و برای شرایط فعلی ...
+              </p>
+              <a
+                class="d-flex justify-content-end"
+                style="color: #009fd1"
+                href=""
+              >
+                بیشتر...
+              </a>
+            </div>
 
             <div class="col-lg-2 col-sm-6 p-0 mb-4">
-              <h5 class="mb-4 fw-semibold golden-color border-bottom border-2">لینک ها</h5>
+              <h5 class="mb-4 fw-semibold golden-color border-bottom border-2">
+                لینک ها
+              </h5>
 
               <div class="mb-3 d-flex align-items-center">
                 <i class="bi bi-dot fs-1 golden-color"></i>
@@ -1404,27 +1489,36 @@
             </div>
 
             <div class="col-lg-3 col-sm-6 p-0 mb-4">
-              <h5 class="mb-4 fw-semibold golden-color border-bottom border-2">ارتباط با ما</h5>
+              <h5 class="mb-4 fw-semibold golden-color border-bottom border-2">
+                ارتباط با ما
+              </h5>
 
-              <div class="d-flex align-items-center mb-3" style="width: max-content">
+              <div
+                class="d-flex align-items-center mb-3"
+                style="width: max-content"
+              >
                 <i class="bi bi-dot fs-1 golden-color"></i>
                 <p class="mb-0" href="">ایمیل: info@negaclub.ir</p>
               </div>
 
-              <div class="d-flex align-items-center mb-3" style="width: max-content">
+              <div
+                class="d-flex align-items-center mb-3"
+                style="width: max-content"
+              >
                 <i class="bi bi-dot fs-1 golden-color"></i>
                 <p class="mb-0" href="">تلفن: 026-342392311 0263423922</p>
               </div>
 
-              <div class="d-flex align-items-center mb-3" style="width: max-content">
+              <div
+                class="d-flex align-items-center mb-3"
+                style="width: max-content"
+              >
                 <i class="bi bi-dot fs-1 golden-color"></i>
                 <p class="mb-0" href="" style="font-size: 11px">
                   آدرس: تهران، خیابان شهید بهشتی، کوچه لاله،پلاک 2
                 </p>
               </div>
             </div>
-
-
           </div>
         </div>
       </div>
